@@ -56,12 +56,26 @@
             android:defaultValue="true"
             android:title="@string/ambient_display_notifications"
             android:summary="@string/ambient_display_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ambient_music"
+        android:title="@string/ambient_music_title" >
 
         <com.bananadroid.support.preferences.SystemSettingSwitchPreference
             android:key="pulse_on_new_tracks"
             android:defaultValue="true"
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_summary" />
+
+        <com.bananadroid.support.preferences.SystemSettingListPreference
+            android:key="ambient_music_ticker"
+            android:title="@string/ambient_music_location"
+            android:summary="%s"
+            android:entries="@array/ambient_music_location_entries"
+            android:entryValues="@array/ambient_music_location_values"
+            android:defaultValue="1" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

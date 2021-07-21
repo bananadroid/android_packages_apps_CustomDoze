@@ -42,8 +42,15 @@
     <string name="ambient_display_summary">Wake screen when you receive notifications</string>
 
     <!-- Ambient music ticker -->
+    <string name="ambient_music_title">Ambient music</string>
     <string name="pulse_on_new_tracks_title">Music ticker</string>
     <string name="pulse_on_new_tracks_summary">Wake screen when a new music track is played</string>
+
+    <!-- Ambient Music Indicator -->
+    <string name="ambient_music_location">Show ambient music ticker</string>
+    <string name="ambient_music_disabled">Disabled</string>
+    <string name="ambient_music_bottom">At the bottom (default)</string>
+    <string name="ambient_music_center">Centered (under the cLock)</string>
 
     <!-- Tilt sensor -->
     <string name="pick_up_title">Pick up</string>
